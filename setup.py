@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="lshakeidn",
-    version="0.2.1",
+    version="0.2.2",
     author="NaranggiSoko",
     author_email="ranggi_me@yahoo.com",
     description="This package gets the latest earthquake in Indonesia from the official government agency",
