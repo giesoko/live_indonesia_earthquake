@@ -7,15 +7,15 @@ It uses BeautifulSoup4 and Requests packages to produce outputs in the form of J
 
 ## How to use it?
 To install the package, copy the pip installation of the latest version and paste it on your terminal. After installing, import the package using "import live_Indonesia_earthquake".
+Here is the code that you need:
 
-"""
+```
 
 import live_Indonesia_earthquake
-
 if __name__ == '__main__':
     print('Live Earthquake Detection App')
     result = live_Indonesia_earthquake.data_extraction()
     live_Indonesia_earthquake.show_data(result)
 
-"""
+```
 
